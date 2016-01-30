@@ -1,0 +1,21 @@
+﻿<Page x:Class="BetManager.Core.BetsList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BetManager.Core"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="BetsList">
+
+    <Grid Background="Transparent" HorizontalAlignment="Stretch">
+        <ListView Height="auto" Width="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" HorizontalContentAlignment="Stretch"
+                  ItemsSource="{Binding BetViewModel}" ItemTemplate="{StaticResource betViewModelTemplate}" >
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+    </Grid>
+</Page>

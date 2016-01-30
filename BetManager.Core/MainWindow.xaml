@@ -1,0 +1,30 @@
+﻿<Window x:Class="BetManager.Core.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BetManager.Core"
+        xmlns:p="clr-namespace:BetManager.Core.Properties"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" >
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/blueFond.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Menu x:Name="mainMenu" Grid.ColumnSpan="2" VerticalAlignment="Stretch" Background="Transparent">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem x:Name="betsMenuItem" Header="Paris" Style="{StaticResource menuItemStyle}" Click="betsMenuItem_Click"/>
+            <MenuItem x:Name="InfosMenuItem" Header="News" Style="{StaticResource menuItemStyle}"/>
+        </Menu>
+        <Frame x:Name="pageContainer" Grid.Row="1" Background="Transparent"/>
+    </Grid>
+</Window>

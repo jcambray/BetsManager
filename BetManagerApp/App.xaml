@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="BetManagerApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetManagerApp"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ImageBrush x:Key="pageFont">
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="//Assets/blueFond.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Application.Resources>
+    
+</Application>

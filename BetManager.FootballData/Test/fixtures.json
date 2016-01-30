@@ -1,0 +1,689 @@
+﻿{
+  "_links": {
+    "_self": { "href": "http://api.football-data.org/alpha/teams/5/fixtures" },
+    "team": { "href": "http://api.football-data.org/alpha/teams/5" }
+  },
+  "count": 40,
+  "fixtures": [
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145671" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/7" }
+      },
+      "date": "2015-08-14T18:30:00Z",
+      "status": "FINISHED",
+      "matchday": 1,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Hamburger SV",
+      "result": {
+        "goalsHomeTeam": 5,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145659" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/2" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-08-22T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 2,
+      "homeTeamName": "TSG 1899 Hoffenheim",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 2
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145646" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/3" }
+      },
+      "date": "2015-08-29T16:30:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Bayer Leverkusen",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145637" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/16" }
+      },
+      "date": "2015-09-12T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "FC Augsburg",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/149397" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/405" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/654" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-09-16T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 1,
+      "homeTeamName": "Olympiacos F.C.",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 3
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145629" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/55" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-09-19T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "SV Darmstadt 98",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 3
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145619" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/11" }
+      },
+      "date": "2015-09-22T18:00:00Z",
+      "status": "FINISHED",
+      "matchday": 6,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "VfL Wolfsburg",
+      "result": {
+        "goalsHomeTeam": 5,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145614" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/15" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-09-26T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "1. FSV Mainz 05",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 3
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/149395" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/405" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/755" }
+      },
+      "date": "2015-09-29T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 2,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "GNK Dinamo Zagreb",
+      "result": {
+        "goalsHomeTeam": 5,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145601" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/4" }
+      },
+      "date": "2015-10-04T15:30:00Z",
+      "status": "FINISHED",
+      "matchday": 8,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Borussia Dortmund",
+      "result": {
+        "goalsHomeTeam": 5,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145598" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/12" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-10-17T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 9,
+      "homeTeamName": "Werder Bremen",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/149392" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/405" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/57" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-10-20T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "homeTeamName": "Arsenal FC",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145583" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/1" }
+      },
+      "date": "2015-10-24T13:30:00Z",
+      "status": "FINISHED",
+      "matchday": 10,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "1. FC Köln",
+      "result": {
+        "goalsHomeTeam": 4,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145574" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/19" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-10-30T19:30:00Z",
+      "status": "FINISHED",
+      "matchday": 11,
+      "homeTeamName": "Eintracht Frankfurt",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/149390" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/405" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/57" }
+      },
+      "date": "2015-11-04T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Arsenal FC",
+      "result": {
+        "goalsHomeTeam": 5,
+        "goalsAwayTeam": 1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145566" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/10" }
+      },
+      "date": "2015-11-07T14:30:00Z",
+      "status": "FINISHED",
+      "matchday": 12,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "VfB Stuttgart",
+      "result": {
+        "goalsHomeTeam": 4,
+        "goalsAwayTeam": 0
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145561" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/6" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-11-21T17:30:00Z",
+      "status": "TIMED",
+      "matchday": 13,
+      "homeTeamName": "FC Schalke 04",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/149389" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/405" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/654" }
+      },
+      "date": "2015-11-24T19:45:00Z",
+      "status": "TIMED",
+      "matchday": 5,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Olympiacos F.C.",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145548" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/9" }
+      },
+      "date": "2015-11-28T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 14,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Hertha BSC",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145537" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/18" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-12-05T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 15,
+      "homeTeamName": "Bor. Mönchengladbach",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/149386" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/405" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/755" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-12-09T19:45:00Z",
+      "status": "TIMED",
+      "matchday": 6,
+      "homeTeamName": "GNK Dinamo Zagreb",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145530" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/31" }
+      },
+      "date": "2015-12-12T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 16,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "FC Ingolstadt 04",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145522" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/8" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2015-12-19T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 17,
+      "homeTeamName": "Hannover 96",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145512" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/7" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-01-23T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 18,
+      "homeTeamName": "Hamburger SV",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145503" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/2" }
+      },
+      "date": "2016-01-30T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 19,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "TSG 1899 Hoffenheim",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145492" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/3" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-02-06T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 20,
+      "homeTeamName": "Bayer Leverkusen",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145483" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/16" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-02-13T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 21,
+      "homeTeamName": "FC Augsburg",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145475" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/55" }
+      },
+      "date": "2016-02-20T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 22,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "SV Darmstadt 98",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145473" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/11" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-02-27T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 23,
+      "homeTeamName": "VfL Wolfsburg",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145457" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/15" }
+      },
+      "date": "2016-03-02T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 24,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "1. FSV Mainz 05",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145448" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/4" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-03-05T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 25,
+      "homeTeamName": "Borussia Dortmund",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145439" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/12" }
+      },
+      "date": "2016-03-12T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 26,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Werder Bremen",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145433" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/1" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-03-19T14:30:00Z",
+      "status": "TIMED",
+      "matchday": 27,
+      "homeTeamName": "1. FC Köln",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145421" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/19" }
+      },
+      "date": "2016-04-02T13:30:00Z",
+      "status": "TIMED",
+      "matchday": 28,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Eintracht Frankfurt",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145417" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/10" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-04-09T13:30:00Z",
+      "status": "TIMED",
+      "matchday": 29,
+      "homeTeamName": "VfB Stuttgart",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145404" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/6" }
+      },
+      "date": "2016-04-16T13:30:00Z",
+      "status": "TIMED",
+      "matchday": 30,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "FC Schalke 04",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145396" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/9" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-04-23T13:30:00Z",
+      "status": "TIMED",
+      "matchday": 31,
+      "homeTeamName": "Hertha BSC",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145386" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/18" }
+      },
+      "date": "2016-04-30T13:30:00Z",
+      "status": "TIMED",
+      "matchday": 32,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Bor. Mönchengladbach",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145380" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/31" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/5" }
+      },
+      "date": "2016-05-07T13:30:00Z",
+      "status": "TIMED",
+      "matchday": 33,
+      "homeTeamName": "FC Ingolstadt 04",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": { "href": "http://api.football-data.org/alpha/fixtures/145368" },
+        "soccerseason": { "href": "http://api.football-data.org/alpha/soccerseasons/394" },
+        "homeTeam": { "href": "http://api.football-data.org/alpha/teams/5" },
+        "awayTeam": { "href": "http://api.football-data.org/alpha/teams/8" }
+      },
+      "awayTeamName": "Hannover 96",
+      "date": "2016-05-14T13:30:00Z",
+      "homeTeamName": "FC Bayern München",
+      "matchday": 34,
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      },
+      "status": "TIMED"
+    }
+  ]
+}
