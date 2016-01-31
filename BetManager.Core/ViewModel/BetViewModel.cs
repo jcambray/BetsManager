@@ -8,7 +8,7 @@ using System.Collections.ObjectModel;
 
 namespace BetManager.Core
 {
-    public class BetViewModel
+    public class BetViewModel : ViewModelBase
     {
    
         public Team Equipe1 { get; set; }
@@ -18,7 +18,16 @@ namespace BetManager.Core
 
 
         //**************VALUE BET//**************
-        public bool IsValueBet { get; set; }
+        private bool isValueBet;
+        public bool IsValueBet
+        {
+            get { return isValueBet; }
+            set
+            {
+                isValueBet = value;
+                Notify("IsValueBet");
+            }
+        }
         public Team SelectedTeam { get; set; }
         private string playerProb;
         public string PlayerProb {

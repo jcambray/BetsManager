@@ -9,7 +9,7 @@
         Title="MainWindow" Height="350" Width="525" >
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/blueFond.jpg"/>
+            <ImageBrush ImageSource="../Images/blueFond.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>

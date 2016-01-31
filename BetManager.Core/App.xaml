@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:BetManager.Core"
              xmlns:c="clr-namespace:BetManager.Core.Model"
              xmlns:p="clr-namespace:BetManager.Core.Properties"
-             StartupUri="MainWindow.xaml">
+             StartupUri="View/MainWindow.xaml">
     <Application.Resources>
         <Style x:Key="menuItemStyleBis" TargetType="MenuItem">
             <Setter Property="Template">
@@ -66,7 +66,7 @@
 
         <DataTemplate x:Key="betViewModelTemplate" DataType="local:BetViewModel">
             <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                
+
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="5*"/>
                     <ColumnDefinition Width="5*"/>
@@ -76,7 +76,7 @@
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
-                
+
                 <TextBlock Text="{Binding Equipe1.Name}" VerticalAlignment="Stretch" Foreground="White"/>
                 <TextBlock Text="{Binding Equipe1.Odd}" Grid.Column="1" VerticalAlignment="Stretch" Foreground="White"/>
 
@@ -92,5 +92,13 @@
                 <TextBox  Grid.Column="6" VerticalAlignment="Stretch" Text="{Binding PlayerProb, Mode=OneWayToSource}"/>
             </Grid>
         </DataTemplate>
+
+        <Style TargetType="ListViewItem" x:Key="betViewModelStyle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding IsValueBet}" Value="True">
+                    <Setter Property="Background" Value="Green"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
     </Application.Resources>
 </Application>

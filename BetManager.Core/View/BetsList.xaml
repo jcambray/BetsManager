@@ -10,10 +10,15 @@
 
     <Grid Background="Transparent" HorizontalAlignment="Stretch">
         <ListView Height="auto" Width="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" HorizontalContentAlignment="Stretch"
-                  ItemsSource="{Binding BetViewModel}" ItemTemplate="{StaticResource betViewModelTemplate}" >
+                  ItemsSource="{Binding BetViewModel}" ItemTemplate="{StaticResource betViewModelTemplate}">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsValueBet}" Value="True">
+                            <Setter Property="Background" Value="Green"/>
+                        </DataTrigger>
+                    </Style.Triggers>
                 </Style>
             </ListView.ItemContainerStyle>
         </ListView>
