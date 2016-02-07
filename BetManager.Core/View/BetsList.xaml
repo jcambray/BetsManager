@@ -10,17 +10,61 @@
 
     <Grid Background="Transparent" HorizontalAlignment="Stretch">
         <ListView Height="auto" Width="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" HorizontalContentAlignment="Stretch"
-                  ItemsSource="{Binding BetViewModel}" ItemTemplate="{StaticResource betViewModelTemplate}">
-            <ListView.ItemContainerStyle>
-                <Style TargetType="ListViewItem">
-                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
-                    <Style.Triggers>
-                        <DataTrigger Binding="{Binding IsValueBet}" Value="True">
-                            <Setter Property="Background" Value="Green"/>
-                        </DataTrigger>
-                    </Style.Triggers>
-                </Style>
-            </ListView.ItemContainerStyle>
+                  ItemsSource="{Binding BetViewModel}" ItemContainerStyle="{StaticResource betViewModelStyle}">
+            <ListView.View>
+                <GridView>
+                    
+                    <GridViewColumn Header="Domicile" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <TextBlock Text="{Binding Equipe1.Name}" Foreground="White"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Cote Dom">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <TextBlock Text="{Binding Equipe1.Odd}" Foreground="White"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Null">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <TextBlock Text="{Binding NullOdd}" Foreground="White"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Exterieur">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <TextBlock Text="{Binding Equipe2.Name}" Foreground="White"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Cote Ext">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <TextBlock Text="{Binding Equipe2.Odd}" Foreground="White"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Mise">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <ComboBox ItemsSource="{Binding SelectTeam}" MinWidth="80" HorizontalAlignment="Stretch" SelectedItem="{Binding SelectedTeam, Mode=OneWayToSource}" DisplayMemberPath="Name"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Probabilté %">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="local:BetViewModel">
+                                <TextBox HorizontalAlignment="Stretch" MinWidth="80" Text="{Binding PlayerProb, Mode=OneWayToSource}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View> 
         </ListView>
     </Grid>
 </Page>
