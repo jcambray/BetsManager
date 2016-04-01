@@ -9,7 +9,7 @@ namespace BetManager.Parsers
 {
     public interface IParser
     {
-         String PageUrl { get; set; }
-        IEnumerable<IBet> Parse();
+        Dictionary<string,List<string>> UrlList { get; set; }
+        Dictionary<string, List<string>> Parse();
     }
 }
